@@ -1,0 +1,6 @@
+{
+  "name": "Story Script Visualizer",
+  "description": "A elegant visual workspace and filter workbench for story scripts, featuring drag-and-drop JSON uploading, focal field filtering, and script editing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

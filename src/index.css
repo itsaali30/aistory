@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-vibrant-orange: #FF6321;
+  --color-vibrant-orange-hover: #E04E10;
+  --color-vibrant-blue: #1E3A8A;
+  --color-vibrant-blue-hover: #152A66;
+  --color-vibrant-bg: #F0F4F8;
+  --color-vibrant-card: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-vibrant-bg);
+  color: #1E293B;
+}
+
+/* Fallback & Helper Classes matching the layout instructions */
+.tag-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: #94A3B8;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.scene-card-vibrant {
+  background: white;
+  border-radius: 16px;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.drop-zone-vibrant {
+  border: 3px dashed #FF6321;
+  border-radius: 20px;
+  background: #FFF5F0;
+}
